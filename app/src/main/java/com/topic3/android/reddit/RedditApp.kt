@@ -114,7 +114,7 @@ private fun MainScreenContainer(
         color = MaterialTheme.colors.background
     ) {
         when (screenState.value) {
-            Screen.Home -> HomeScreen(viewModel)
+            Screen.Home -> HomeScreen(viewModel,)
             Screen.Subscriptions -> SubredditsScreen()
             Screen.NewPost -> AddScreen(viewModel)
             Screen.MyProfile -> MyProfileScreen(viewModel)
